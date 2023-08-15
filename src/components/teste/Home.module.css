@@ -1,0 +1,36 @@
+.TituloAplicacao{
+    font-size: 5em;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+img{
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.label_img{
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%; /* Posiciona o elemento a meio da altura do container */
+    left: 50%; /* Posiciona o elemento a meio da largura do container */
+    transform: translate(-50%, -50%); /* Centraliza o elemento */
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+.banner_overlay{
+    background-color: rgba(194, 143, 2, 0.7);
+    position: absolute;
+    top: 2%;
+    width: 98%;
+    height: 50vh;
+    padding: 2px;
+    margin: 0 auto;
+}
