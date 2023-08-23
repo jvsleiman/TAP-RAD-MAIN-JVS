@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Teste from './pages/Teste.jsx'
+import Teste from './components/menuList/Teste.jsx'
 import './index.css'
 import Titulo from './Titulo.jsx'
 

@@ -1,0 +1,20 @@
+.menuLinks {
+    display: flex;
+    background-color: #f0f0f0; /* Cor de fundo cinza */
+    border-radius: 10px; /* Border-radius para cantos arredondados */
+    padding: 10px;
+    width: 260px;
+    height: 390px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    padding: 5px 10px;
+    border-right: 1px solid #ccc; /* Borda à direita para separar os links */
+  }
+  
+  .menu-link:last-child {
+    border-right: none; /* Remove a borda à direita do último link */
+  }
+  

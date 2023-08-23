@@ -6,12 +6,6 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
-.operador h1{
-  color: red;
-}
-.operador h2{
-  color: blue;
-}
 /* O codigo está apenas funcionando no index.css, não no Home.module.css */
 /* .TituloAplicacao{
   font-size: 10em;
